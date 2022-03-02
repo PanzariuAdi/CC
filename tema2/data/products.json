@@ -1,0 +1,25 @@
+[
+  {
+    "id":"1",
+   "name":"Casti gaming razer",
+   "description":"Sunetul nu este doar o experienta! Ci iti intareste simturile. Cand stii exact unde inamicul este pozitionat, tu esti cel care pune capcane. Simtul auzului devine arma ta principala, astfel devenind maestru al jocului.",
+   "link": "https://www.emag.ro/casti-gaming-razer-kraken-tournament-edition-thx-surround-telecomanda-pe-fir-verde-rz04-02051100-r3m1/pd/D71LR4BBM/?X-Search-Id=19d26c3a0e1f9f406a49&X-Product-Id=5115270&X-Search-Page=1&X-Search-Position=10&X-Section=search&X-MB=0&X-Search-Action=view",
+   "price":199.99
+  },
+
+  {
+    "id":"2",
+   "name":"iPhone 12 Pro 256GB Memory",
+   "description":"A14 Bionic depaseste cu mult orice alt cip de smartphone. Sistemul de camere Pro duce fotografia in mediile slab luminate la un nivel superior, cu un salt si mai senzational pe iPhone 12 Pro. Iar Ceramic Shield este de patru ori mai rezistenta la cadere. Prima impresie este excelenta. Stai sa vezi si restul.",
+   "link": "https://www.emag.ro/telefon-mobil-apple-iphone-12-pro-256gb-5g-pacific-blue-mgmt3rm-a/pd/DXTJ27MBM/?X-Search-Id=34091e376520fce76e29&X-Product-Id=74216229&X-Search-Page=1&X-Search-Position=1&X-Section=search&X-MB=0&X-Search-Action=view",
+   "price":5579.99
+  },
+
+  {
+   "id":"3",
+   "name":"Monitor LED IPS 27 inch",
+   "description":"Lasati-va in imersiunea perfecta a imaginii acestei panze masive, conceputa pentru a redefini confortul, wellness-ul si sustenabilitatea. Jucati-va, lucrati sau pur si simplu priviti la noua definitie a definitiei inalte.",
+   "link": "https://www.emag.ro/monitor-led-ips-27-hp-full-hd-60hz-5ms-amd-freesynctm-vga-hdmi-m27fw-2h1a4aa/pd/DLZFVHMBM/?X-Search-Id=207e7ca6986775b93532&X-Product-Id=8420448&X-Search-Page=1&X-Search-Position=3&X-Section=search&X-MB=0&X-Search-Action=view",
+   "price":919.99
+  }
+]
