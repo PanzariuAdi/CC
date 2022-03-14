@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "1b5553a8-a7e8-416c-9fb5-bfa9eec1c407",
+		"name": "PutRequests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PutRequest",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutWrongId",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
