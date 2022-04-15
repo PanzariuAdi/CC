@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/da06c922-fa80-4914-a1a5-2fd415ee8d05/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/tema4-cc-cp",
+    "appService.deploySubpath": "."
+}
