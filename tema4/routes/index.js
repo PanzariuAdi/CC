@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 const database = require('../services/database.js');
+const textToSpeech = require('../services/speechSynthesis');
 
 
 const axios = require('axios').default;
@@ -55,7 +56,8 @@ router.post('/result', (req, res) => {
       source_language : source_language,
       target_language : json_values[0]['translations'][0]['to']
     }
-    database.addObject(data_to_sent);
+    // database.addObject(data_to_sent);
+    textToSpeech.example(data_to_sent.target_text);
     res.render('result', { answer: data_to_sent })
   })
 });
