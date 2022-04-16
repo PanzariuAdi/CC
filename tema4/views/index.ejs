@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/stylesheets/homepage.css" type="text/css">
     <title>Form page</title>
 </head>
 <body>
@@ -13,9 +14,9 @@
     <div class="container">
         <form action="/result" method="post">
             <label for="phrase">Phrase you want to analyze : </label><br>
-            <textarea name="text" id="text" placeholder="Write something ..." style="height: 200px"></textarea><br><br>
+            <textarea name="text" id="text" placeholder="Write something ..."></textarea><br><br>
 
-            <label for="source_language">Language to translate from :</label><br>
+            <label for="source_language">Language to translate from :</label><br><br>
             <select id="source_language" name="source_language">
                 <option value="ar">Arabic</option>
                 <option value="be">Belarusian</option>
@@ -33,9 +34,9 @@
                 <option value="sv">Swedish</option>
                 <option value="tr">Turkish</option>
                 <option value="vi">Vietnamese</option>
-              </select>
+              </select><br><br>
 
-            <label for="target_language">Language to translate to :</label><br>
+            <label for="target_language">Language to translate to :</label><br><br>
             <select id="target_language" name="target_language">
                 <option value="ar">Arabic</option>
                 <option value="be">Belarusian</option>

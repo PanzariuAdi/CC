@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/stylesheets/homepage.css" type="text/css">
     <title>Result</title>
 </head>
 <body>
-    <h1 align="center">Result page</h1>
-    <h2 align="center">Textul original : <%= answer.source_text %></h2>
-    <h2 align="center">Textul tradus : <%= answer.target_text %></h2>
-    <h2 align="center">Limba din care a fost tradus : <%= answer.source_language %></h2>
-    <h2 align="center">Limba in care a fost tradus : <%= answer.target_language %></h2>
+
+    <div class="container">
+        <h1 align="center">Result page</h1>
+        <h2 align="center">Textul original : <%= answer.source_text %></h2>
+        <h2 align="center">Textul tradus : <%= answer.target_text %></h2>
+        <h2 align="center">Limba din care a fost tradus : <%= answer.source_language %></h2>
+        <h2 align="center">Limba in care a fost tradus : <%= answer.target_language %></h2>
+
+        <audio controls preload="auto" align="center">
+            <source src="../response.wav" type="audio/wav">
+        </audio><br><br>
+
+        <a href="/"><button>Back home</button></a>
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,24 @@
+body {
+    background-color: burlywood;
+}
+
+h3 {
+    text-align: center;
+}
+
+#text {
+    height: 200px;
+    width: 220px;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+}
