@@ -56,8 +56,8 @@ router.post('/result', (req, res) => {
       source_language : source_language,
       target_language : json_values[0]['translations'][0]['to']
     }
-    // database.addObject(data_to_sent);
-    textToSpeech.example(data_to_sent.target_text);
+    database.addObject(data_to_sent);
+    textToSpeech.convertTextToSpeech(data_to_sent.target_text);
     res.render('result', { answer: data_to_sent })
   })
 });
